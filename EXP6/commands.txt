@@ -4,3 +4,8 @@ New-Item server.js
 echo > server.js
 --> paste the code in server.js
 To run the code: node server.js
+
+to stop the process:
+netstat -ano | findstr :3000
+Stop-Process -Id 24440 -Force (24440 is the ID. Paste whatever the ID is.)
+to run the process: node server.js
