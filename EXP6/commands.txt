@@ -1,0 +1,6 @@
+npm init -y
+npm install express
+New-Item server.js
+echo > server.js
+--> paste the code in server.js
+To run the code: node server.js
