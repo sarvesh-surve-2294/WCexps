@@ -1,0 +1,4 @@
+npx create-react-app my-app
+cd my-app
+Paste the code in App.js
+run the code by npm start
